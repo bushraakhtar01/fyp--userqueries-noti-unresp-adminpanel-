@@ -1,0 +1,36 @@
+.bell{
+    background-color: #c62828;
+    width: 19px;
+    height: 3vh;
+    border-radius: 10px;
+    font-size: 12px;
+    font-weight: bold;
+    text-align: center;
+    position: absolute;
+    top: 5px;
+    margin-left: -10px;
+ 
+}
+.fa-bell-o{
+    z-index: 10;
+    color: white;
+
+}
+
+.notidiv{
+    display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+  padding: 20px;
+  top: 40px;
+  right: 110px;
+}
+
+@media(max-width:400px){
+    .tb{
+        font-size: 10px !important;
+    }
+}
